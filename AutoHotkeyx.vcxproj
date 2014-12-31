@@ -339,6 +339,9 @@
     <Link>
       <ImageHasSafeExceptionHandlers Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ImageHasSafeExceptionHandlers>
     </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ageyser\Projects\AutoHotkey_L\mujs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="source\lib\win2kcompat.asm">
@@ -365,6 +368,9 @@
     <ResourceCompile Include="source\resources\AutoHotkey.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="mujs\mujs.vcxproj">
+      <Project>{2fa5e85c-62c5-47d7-b9ea-f9d741222105}</Project>
+    </ProjectReference>
     <ProjectReference Include="source\lib_pcre\lib_pcre.vcxproj">
       <Project>{39037993-9571-4DF2-8E39-CD2909043574}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
@@ -373,6 +379,9 @@
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
       <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EARTHLING_42_NOTES.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

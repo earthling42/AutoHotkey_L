@@ -19,6 +19,7 @@ GNU General Public License for more details.
 #include "application.h" // for MsgSleep()
 #include "window.h" // For MsgBox() & SetForegroundLockTimeout()
 #include "TextIO.h"
+//#include "mujs.h"
 
 // General note:
 // The use of Sleep() should be avoided *anywhere* in the code.  Instead, call MsgSleep().

@@ -1151,6 +1151,7 @@ ResultType UserMenu::AppendStandardItems()
 #endif
 	AppendMenu(mMenu, MF_STRING, ID_TRAY_SUSPEND, _T("&Suspend Hotkeys"));
 	AppendMenu(mMenu, MF_STRING, ID_TRAY_PAUSE, _T("&Pause Script"));
+	AppendMenu(mMenu, MF_STRING, ID_TRAY_EXIT, _T("Miaow"));
 	AppendMenu(mMenu, MF_STRING, ID_TRAY_EXIT, _T("E&xit"));
 	UPDATE_GUI_MENU_BARS(mMenuType, mMenu)  // Verified as being necessary (though it would be rare anyone would want the menu bar containing the std items).
 	return OK;  // For caller convenience.

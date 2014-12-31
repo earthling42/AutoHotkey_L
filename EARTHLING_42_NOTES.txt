@@ -1,0 +1,8 @@
+Kickoff in Autohotkey.cpp:
+		int WINAPI _tWinMain
+
+SendKeys in keyboard_mouse.cpp
+
+g_script seems to be global that contains script interpreter state
+
+

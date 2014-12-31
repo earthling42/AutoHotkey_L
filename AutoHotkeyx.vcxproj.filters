@@ -238,4 +238,7 @@
       <Filter>Assembly Files</Filter>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="EARTHLING_42_NOTES.txt" />
+  </ItemGroup>
 </Project>

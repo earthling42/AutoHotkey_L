@@ -1,0 +1,76 @@
+﻿Build started 2014/12/31 13:31:04 PM.
+     1>Project "C:\Users\ageyser\Projects\AutoHotkey_L\mujs\mujs.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt jsarray.c jsboolean.c jsbuiltin.c jscompile.c jsdate.c jsdtoa.c jsdump.c jserror.c jsfunction.c jsgc.c jsintern.c jslex.c jsmath.c jsnumber.c jsobject.c json.c jsparse.c jsproperty.c jsregexp.c jsrun.c jsstate.c jsstring.c jsvalue.c main.c regex.c utf.c utftype.c
+         utftype.c
+         utf.c
+         regex.c
+     1>regex.c(488): warning C4244: '=' : conversion from 'Rune' to 'unsigned char', possible loss of data
+         main.c
+     1>main.c(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>main.c(98): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+         jsvalue.c
+         jsstring.c
+         jsstate.c
+         jsrun.c
+         jsregexp.c
+         jsproperty.c
+         jsparse.c
+         json.c
+         jsobject.c
+         jsnumber.c
+         jsmath.c
+         jslex.c
+         jsintern.c
+         jsgc.c
+     1>jsgc.c(19): warning C4090: 'function' : different 'const' qualifiers
+     1>jsgc.c(20): warning C4090: 'function' : different 'const' qualifiers
+         jsfunction.c
+         jserror.c
+         Generating Code...
+         Compiling...
+         jsdump.c
+         jsdtoa.c
+         jsdate.c
+         jscompile.c
+     1>jscompile.c(111): warning C4090: 'function' : different 'const' qualifiers
+     1>jscompile.c(127): warning C4090: 'function' : different 'const' qualifiers
+         jsbuiltin.c
+         jsboolean.c
+         jsarray.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\ageyser\Projects\AutoHotkey_L\Debug\mujs.lib" /NOLOGO Debug\jsarray.obj
+         Debug\jsboolean.obj
+         Debug\jsbuiltin.obj
+         Debug\jscompile.obj
+         Debug\jsdate.obj
+         Debug\jsdtoa.obj
+         Debug\jsdump.obj
+         Debug\jserror.obj
+         Debug\jsfunction.obj
+         Debug\jsgc.obj
+         Debug\jsintern.obj
+         Debug\jslex.obj
+         Debug\jsmath.obj
+         Debug\jsnumber.obj
+         Debug\jsobject.obj
+         Debug\json.obj
+         Debug\jsparse.obj
+         Debug\jsproperty.obj
+         Debug\jsregexp.obj
+         Debug\jsrun.obj
+         Debug\jsstate.obj
+         Debug\jsstring.obj
+         Debug\jsvalue.obj
+         Debug\main.obj
+         Debug\regex.obj
+         Debug\utf.obj
+         Debug\utftype.obj
+         mujs.vcxproj -> C:\Users\ageyser\Projects\AutoHotkey_L\Debug\mujs.lib
+     1>Done Building Project "C:\Users\ageyser\Projects\AutoHotkey_L\mujs\mujs.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13

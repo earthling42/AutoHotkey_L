@@ -20,7 +20,8 @@ GNU General Public License for more details.
 #include "application.h" // for MsgSleep()
 #include "util.h"  // for strlicmp()
 #include "window.h" // for IsWindowHung()
-
+#include "jsi.h"
+#include "jscompile.h"
 
 // Added for v1.0.25.  Search on sPrevEventType for more comments:
 static KeyEventTypes sPrevEventType;
